@@ -1,0 +1,41 @@
+.cont{
+    text-align: center;
+}
+
+.genre {
+    background-color: #f0f0f0;
+    padding: 1px; 
+    margin: auto;
+    max-width: 750px; }
+
+.button{
+   margin-left: 15px;
+}
+
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 3px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th{
+    background-color: #f0f0f0;
+}
+
+.cont1 {
+    margin: 0 auto; 
+    max-width: 1000px; }
+
+.tablee{
+    text-align: center;
+}
+
+tr:hover{
+    background-color: #f0f0f0;
+}

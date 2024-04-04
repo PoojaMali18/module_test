@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React from "react";
+import Moviedisplay from "./Components/Moviedisplay";
+import Genre from "./Components/Genre";
+import './style.css';
+import movies from "./data/movies.js";
+import genres from "./data/genres.js"
+function App() 
+{
+   
+    return (
+        <div class="cont">
+            <h1 >Top 15 Movies of All Time</h1>
+            <Genre genres={genres}/>
+            <Moviedisplay movies={movies}/>
+        </div>
+    )
 }
-
 export default App;
